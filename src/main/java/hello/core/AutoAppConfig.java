@@ -24,8 +24,8 @@ public class AutoAppConfig {
 
     // 수동 빈 등록 vs 자동 빈 등록 : 층돌 시 수동 빈 등록이 우선권을 가진다.
     // 단, 스프링 부트를 통해 실행하면 (테스트 환경이 아닌) 에러가 뜬다.
-    @Bean(name = "memoryMemberRepository")
-    public MemberRepository memberRepository(){
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    public MemberRepository memberRepository(){
+//        return new MemoryMemberRepository();
+//    }
 }
