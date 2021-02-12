@@ -25,7 +25,7 @@ public class NetworkClient {
 
     //서비스 시작시 호출
     public void connect(){
-        System.out.println("connect : " + url);
+        System.out.println("connect: " + url);
     }
 
     public void call(String message){
@@ -34,7 +34,7 @@ public class NetworkClient {
 
     // 서비스 종료 시 호출
     public void disconnect(){
-        System.out.println("close: "+url);
+        System.out.println("close: "+ url);
     }
 
     @PostConstruct
